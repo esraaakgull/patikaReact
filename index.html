@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="containerDiv">
+    <div class="formDiv">
+        <div class="titleDiv">
+            <h1>Form</h1>
+        </div>
+        <div>
+            <div class="centerItems">
+                <label for="title" class="labels"> Title:</label>
+                <input type="text" id="title" placeholder="Title" class="inputText"/>
+            </div>
+            <div class="centerItems">
+                <label for="completed" class="labels"> Is Completed?:</label>
+                <input type="checkbox" id="completed" placeholder="Completed" class="inputCheckbox"/>
+            </div>
+        </div>
+        <div class="centerItems">
+            <input type="button" id="submitBtn" value="Add" class="submitButton"/>
+        </div>
+    </div>
+    <div class="listDiv">
+        <div class="loading">
+            <h1>... LOADING ...</h1>
+        </div>
+        <div class="listItemsBox">
+            <ol id="items" class="items">
+            </ol>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

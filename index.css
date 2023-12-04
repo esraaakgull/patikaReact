@@ -1,0 +1,88 @@
+body{
+    background-color: cadetblue;
+}
+.containerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 800px;
+}
+
+.formDiv {
+    width: 50%;
+    height: 80%;
+    background-color: #ffceff;
+    border-right: 5px solid gray;
+    padding: 10px;
+}
+
+.listDiv {
+    width: 50%;
+    height: 80%;
+    background-color: #c1f0ff;
+    padding: 10px;
+}
+
+.titleDiv {
+    text-align: center;
+    padding: 10px;
+}
+
+.labels {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.inputText {
+    width: 200px;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 18px;
+}
+
+.inputCheckbox {
+    width: 50px;
+    height: 25px;
+}
+
+.centerItems{
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 10px;
+}
+
+.submitButton{
+    width: 260px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    font-size: 18px;
+}
+.submitButton:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
+
+.loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listItemsBox{
+    padding: 10px;
+    display: none;
+}
+
+.items>li{
+    font-size: 20px;
+    color: blueviolet;
+    font-style: oblique;
+    font-weight: bold;
+}
